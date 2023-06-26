@@ -1,3 +1,5 @@
+package Esercizio1
+
 fun main(args: Array<String>) {
     for (i in 1..100 step 2) {
         when (i) {
@@ -15,4 +17,3 @@ fun above50(i: Int) {
 fun below50(i: Int){
     println("numeri sopra 50: $i")
 }
-
